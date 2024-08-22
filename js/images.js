@@ -57,12 +57,12 @@ const imagesG = [
     {src: "img/portfolio/Colores.jpg", title: "Colores", description: "Oleo. 120 X 80"}
  ];
  const imagesCarb = [
-    {src: "img/portfolio/carb1.jpg", title: "", description: ""},
-    {src: "img/portfolio/carb2.jpg", title: "", description: ""},
-    {src: "img/portfolio/carb3.jpg", title: "", description: ""},
-    {src: "img/portfolio/carb4.jpg", title: "", description: ""},
-    {src: "img/portfolio/carb5.jpg", title: "", description: ""},
-    {src: "img/portfolio/carb6.jpg", title: "", description: ""}
+    {src: "img/portfolio/carb1.jpg", title: "Paco de Lucía", description: ""},
+    {src: "img/portfolio/carb2.jpg", title: "Simpatía Manchada", description: ""},
+    {src: "img/portfolio/carb3.jpg", title: "Felices Sueños", description: ""},
+    {src: "img/portfolio/carb4.jpg", title: "La Chica de N.G.", description: ""},
+    {src: "img/portfolio/carb5.jpg", title: "Arrugas", description: ""},
+    {src: "img/portfolio/carb6.jpg", title: "Cuatro Genios", description: ""}
  ];
 
  function generateGallery() {
