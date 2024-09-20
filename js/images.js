@@ -21,6 +21,7 @@ const imagesG = [
     {src: "img/portfolio/El Niño 400.jpg", title: "El Niño", description: ""},
     {src: "img/portfolio/LA DANZA DE LAS BRUJAS.jpg", title: "La danza de las brujas", description: "Gouache. 120 X 80"},
     {src: "img/portfolio/MEIGAS.jpg", title: "Meigas", description: "Gouache. 100 X 50"},
+    {src: "img/portfolio/Manos.jpg", title: "Manos", description: "Gouache"},
     {src: "img/portfolio/El salto Universal.jpg", title: "El salto Universal", description: "Gouache. 100 X 60"},
     {src: "img/portfolio/El Jardín de las Cúpulas.jpg", title: "El Jardín de las Cúpulas", description: "Oleo. 120 X 80"},
     {src: "img/portfolio/EL BALCÓN.jpg", title: "El balcón", description: "Gouache. 100 X 60"},
@@ -30,14 +31,19 @@ const imagesG = [
     {src: "img/portfolio/Los monjes.jpg", title: "Los monjes", description: "Gouache. 100 X 60"},
     {src: "img/portfolio/Los monjes 2.jpg", title: "Los monjes 2", description: "Gouache. 100 X 60"},
     {src: "img/portfolio/SOSIEGO 750.jpg", title: "Sosiego", description: ""},
+    {src: "img/portfolio/BAZAR.jpg", title: "Bazar", description: "Gouache"},
     {src: "img/portfolio/Alivio.jpg", title: "Alivio", description: "Gouache. 100 X 60"},
     {src: "img/portfolio/LOS VINILOS 450.jpg", title: "Los Vinilos", description: ""},
     {src: "img/portfolio/TANGO.jpg", title: "Tango", description: "Gouache. 100 X 60"},
+    {src: "img/portfolio/EL PIBE.jpg", title: "El Pibe", description: "Gouache"},
     {src: "img/portfolio/CAMINANTES.jpg", title: "Caminantes", description: "Acrílico y Gouache. 100 X 40"},
-    {src: "img/portfolio/PLACIDED 500.jpg", title: "Placided", description: ""},
+    {src: "img/portfolio/LAS CARAS.jpg", title: "Las Caras", description: "Gouache"},
+    {src: "img/portfolio/PLACIDED 500.jpg", title: "Placided", description: "Gouache"},
+    {src: "img/portfolio/LAS 2 FLOTANDO.jpg", title: "Las 2 flotando", description: ""},
     {src: "img/portfolio/PERCUSIÓN.jpg", title: "Percusión", description: "Gouache. 100 X 80"},
     {src: "img/portfolio/EL TROMPETA.jpg", title: "El Trompeta", description: "Gouache. 100 X 60"},
-    {src: "img/portfolio/Ray Charles.jpg", title: "Ray Charles", description: "Gouache. 100 X 60"}
+    {src: "img/portfolio/Ray Charles.jpg", title: "Ray Charles", description: "Gouache. 100 X 60"},
+    {src: "img/portfolio/TROMPETISTA.jpg", title: "Trompetista", description: "Gouache"}
 
  ];
 
@@ -45,7 +51,10 @@ const imagesG = [
     {src: "img/portfolio/STONEHENGE.jpg", title: "Stonehenge", description: "Acrílico. 90 X 40"},
     {src: "img/portfolio/LA CALMA.jpg", title: "Calma", description: "Acrílico. 100 X 50"},
     {src: "img/portfolio/TAJ MAHAL.jpg", title: "Taj Mahal", description: "Acrílico. 80 X 60"},
-    {src: "img/portfolio/Macky.jpg", title: "Macky", description: "Acrílico. 100 X 60"}
+    {src: "img/portfolio/Macky.jpg", title: "Macky", description: "Acrílico. 100 X 60"},
+    {src: "img/portfolio/EL GUARDIAN DE LAS CAVERNAS.jpg", title: "El Guardián de las Cavernas", description: "Acrílico"},
+    {src: "img/portfolio/LUNAREDA 2.jpg", title: "Lunareda 2", description: "Acrílico"},
+    {src: "img/portfolio/INFINITO.jpg", title: "Infinito", description: "Acrílico"}
  ];
 
  const imagesO = [
@@ -54,7 +63,16 @@ const imagesG = [
     {src: "img/portfolio/CAVERNIMENTOS 2.jpg", title: "Cavernimientos", description: "Oleo. 100 X 60"},
     {src: "img/portfolio/De algo hay que morir.jpg", title: "De algo hay que morir", description: "Oleo. 100 X 60"},
     {src: "img/portfolio/Arquitectura.jpg", title: "Arquitectura", description: "Oleo. 100 X 60"},
-    {src: "img/portfolio/Colores.jpg", title: "Colores", description: "Oleo. 120 X 80"}
+    {src: "img/portfolio/Colores.jpg", title: "Colores", description: "Oleo. 120 X 80"},
+    {src: "img/portfolio/Pais de San Jamas.jpg", title: "Pais de San Jamas", description: "Oleo"},
+    {src: "img/portfolio/Ocaso.jpg", title: "Ocaso", description: "Oleo"},
+    {src: "img/portfolio/Neumaticidad.jpg", title: "Neumaticidad", description: "Oleo"},
+    {src: "img/portfolio/Mar de la tranquilidad.jpg", title: "Mar de la tranquilidad", description: "Oleo"},
+    {src: "img/portfolio/LUNAREDA.jpg", title: "Lunareda", description: "Oleo"},
+    {src: "img/portfolio/FORMAS CELTAS.jpg", title: "Formas Celtas", description: "Oleo"},
+    {src: "img/portfolio/DEBAJO HAY MÁS.jpg", title: "Debajo hay más", description: "Oleo"},
+    {src: "img/portfolio/Por los suelos.jpg", title: "Por los suelos", description: "Oleo"},
+    {src: "img/portfolio/Pensando en el universo.jpg", title: "Pensando en el universo", description: "Oleo"}
  ];
  const imagesCarb = [
     {src: "img/portfolio/carb1.jpg", title: "Paco de Lucía", description: ""},
@@ -64,6 +82,10 @@ const imagesG = [
     {src: "img/portfolio/carb5.jpg", title: "Arrugas", description: ""},
     {src: "img/portfolio/carb6.jpg", title: "Cuatro Genios", description: ""}
  ];
+
+ const imagesEsc = [
+   {src: "img/portfolio/ECHAR RAÍCES.jpg", title: "Echar raíces", description: "Escultura"}
+];
 
  function generateGallery() {
     const galleryContainer = document.querySelector('.portfolio-items');
@@ -135,6 +157,23 @@ const imagesG = [
         galleryContainer.appendChild(item);
      });
  
+ 
+   imagesEsc.forEach(image => {
+      const item = document.createElement('div');
+      item.className = 'col-sm-6 col-md-3 col-lg-3 escultura';
+      item.innerHTML = `
+         <div class="portfolio-item">
+            <div class="hover-bg">
+               <a href="${image.src}" title="${image.title}" data-description="${image.description}" data-lightbox-gallery="gallery1">
+                  <div class="hover-text">
+                     <h4>${image.title}</h4>
+                  </div>
+                  <img src="${image.src}" class="img-responsive" alt="${image.title}">
+               </a>
+            </div>
+         </div>`;
+      galleryContainer.appendChild(item);
+   });
  }
  
  generateGallery();

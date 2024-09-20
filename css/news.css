@@ -1,0 +1,48 @@
+.margin-news {
+	margin-top: 30px;
+}
+
+
+.holderN {
+	width: 100%;
+	padding-bottom: 6px;
+	margin-top: 40px;
+}
+
+.holderN p {
+	font-size: 1.1em;
+    font-family: 'Oxygen', sans-serif;	
+	color: #898989;
+	line-height: 1.7em;
+	margin-top: 14px;
+	margin-bottom: 20px;
+}
+
+h6 {
+    font-size: 1.1em;
+	font-weight: 600;
+    color: #4f4d47;
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Oxygen', sans-serif;
+	line-height: 1.7em;
+}
+
+
+h6 .date {
+    font-size: 0.9em;
+	font-weight: 400;
+    color: #e74c3c;
+	margin-top: 15px;
+	margin-bottom: 14px;
+	text-align: center;
+	line-height: 1.7em;
+	display: block;
+	text-transform: lowercase;
+	font-family: 'Oxygen', sans-serif;	
+}
+
+.photo-news {
+	margin-top: 13px;
+	margin-bottom: 26px;
+}

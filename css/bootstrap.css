@@ -1145,6 +1145,14 @@ img {
        -o-transition: all .2s ease-in-out;
           transition: all .2s ease-in-out;
 }
+
+.responsive-image {
+  display: block;           /* Asegura que la imagen se comporte como un bloque */
+  margin: 0 auto;           /* Centra horizontalmente la imagen */
+  max-width: 100%;          /* La imagen no excederá el 100% del ancho del contenedor */
+  height: auto;             /* Mantiene la proporción de la imagen */
+}
+
 .img-circle {
   border-radius: 50%;
 }
