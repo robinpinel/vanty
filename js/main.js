@@ -26,9 +26,10 @@ $('#nav').affix({
 
 	
   	// Portfolio isotope filter
-    $(window).load(function() {
+    $(window).on('load', function() {
         var $container = $('.portfolio-items');
         $container.isotope({
+            layoutMode: 'fitRows', 
             filter: '*',
             animationOptions: {
                 duration: 750,
@@ -36,7 +37,8 @@ $('#nav').affix({
                 queue: false
             }
         });
-        $('.cat a').click(function() {
+        $('.cat a').on('click', function() {
+            event.preventDefault();
             $('.cat .active').removeClass('active');
             $(this).addClass('active');
             var selector = $(this).attr('data-filter');
